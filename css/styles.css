@@ -5,12 +5,17 @@
   --color-primary-light: #faf4ea;
 }
 /*----------------------GLOBAL STYLES-----------------*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-primary-dark);
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+  margin: 0;
 }
 ul {
   list-style-type: none;
@@ -19,8 +24,30 @@ address {
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 /*------------------------HEADER------------------------ */
 .button {
+  padding: 16px 32px;
   color: var(--color-primary-light);
   background-color: var(--color-brand-light);
   border: 2px solid var(--color-brand-light);
@@ -45,17 +72,31 @@ address {
 }
 
 /*------------------------HERO--------------------------*/
+.hero-section {
+  padding: 272px 0;
+}
+
 .hero-title {
   color: var(--color-primary-light);
   text-align: center;
   font-size: 128px;
   font-weight: 900;
+  margin-bottom: 0;
 }
 
 .hero-title .accent {
   color: var(--color-brand-light);
 }
-/*------------------------TRADITIONS--------------------------*/
+/*-------------------------Adventages-------------------------*/
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .adventages-list {
   background-color: var(--color-brand-light);
   color: var(--color-primary-light);
@@ -64,6 +105,13 @@ address {
 .adventages-item {
   font-size: 20px;
   font-weight: 300;
+}
+/*------------------------TRADITIONS--------------------------*/
+.tradition-section {
+  padding-top: 96px;
+}
+.traditions-title {
+  margin-bottom: 42px;
 }
 
 .section-title {
@@ -86,10 +134,18 @@ address {
 }
 /*------------------------CHEFS--------------------------*/
 .chef-title {
+  margin-bottom: 16px;
   font-size: 40px;
   font-weight: 600;
 }
+
+.chefs-title {
+  margin-bottom: 80px;
+}
 /*------------------------FORMATS--------------------------*/
+.formats-title {
+  margin-bottom: 80px;
+}
 .format-title {
   font-size: 24px;
   font-weight: 600;
@@ -100,6 +156,9 @@ address {
   font-weight: 300;
 }
 /*------------------------CONTACT--------------------------*/
+.contact-title {
+  margin-bottom: 16px;
+}
 /*------------------------FOOTER--------------------------*/
 .address-link {
   color: var(--color-primary-light);
