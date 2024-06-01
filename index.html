@@ -183,13 +183,16 @@
             Приєднуйтеся до мережі пекарень
           </h2>
           <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-          <form name="contact-form" autocomplete="off">
+          <form name="contact-form" autocomplete="on">
             <div class="form-field">
               <input
                 class="form-input"
                 type="text"
                 id="user-name"
                 name="user-name"
+                minlength="2"
+                maxlength="20"
+                required
               />
               <label class="form-label" for="user-name">Ім'я</label>
             </div>
@@ -199,6 +202,8 @@
                 type="tel"
                 id="user-tel"
                 name="user-tel"
+                pattern="^\+[0-9]{12}"
+                required
               />
               <label class="form-label" for="user-tel">Телефон</label>
             </div>
@@ -208,6 +213,7 @@
                 type="email"
                 id="user-email"
                 name="user-email"
+                required
               />
               <label class="form-label" for="user-email"
                 >Електронна пошта</label
@@ -303,13 +309,16 @@
         <button class="modal-btn-close" type="button">Закрити</button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-        <form name="modal-form" autocomplete="off" novalidate>
+        <form name="modal-form" autocomplete="on">
           <div class="form-field">
             <input
               class="form-input"
               type="text"
               id="user-name"
               name="user-name"
+              minlength="2"
+              maxlength="20"
+              required
             />
             <label class="form-label" for="user-name">Ім'я</label>
           </div>
@@ -319,6 +328,7 @@
               type="tel"
               id="user-tel"
               name="user-tel"
+              required
             />
             <label class="form-label" for="user-tel">Телефон</label>
           </div>
@@ -328,6 +338,7 @@
               type="email"
               id="user-email"
               name="user-email"
+              required
             />
             <label class="form-label" for="user-email">Електронна пошта</label>
           </div>
