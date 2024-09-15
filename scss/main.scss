@@ -1,0 +1,28 @@
+@import "./utils/variables.css";
+/*----------------------GLOBAL STYLES-----------------*/
+@import "./base";
+/*------------------------HEADER------------------------ */
+
+@import "./components/buttons";
+@import "./components/header";
+@import "./components/links";
+
+/*------------------------HERO--------------------------*/
+@import "./components/hero-section";
+/*-------------------------Adventages-------------------------*/
+@import "./utils/utils";
+@import ".components/adventages-section";
+/*------------------------TRADITIONS--------------------------*/
+@import "./components/traditions-section";
+/*------------------------CHEFS--------------------------*/
+@import "./components/chefs-section";
+/*------------------------FORMATS--------------------------*/
+@import "./components/formats-section";
+/*------------------------CONTACT--------------------------*/
+@import "./components/contact-section";
+/*------------------------FOOTER--------------------------*/
+@import "./components/footer";
+/*----------------------MODAL WINDOW-----------------------------*/
+@import "./components/modal-window";
+/*----------------FORM------------------------*/
+@import "./components/form";

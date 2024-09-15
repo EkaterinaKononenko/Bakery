@@ -1,0 +1,44 @@
+.tradition-section {
+  padding-top: 96px;
+}
+
+.traditions-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.traditions-content {
+  max-width: 710px;
+}
+
+.traditions-title {
+  margin-bottom: 42px;
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.section-title.centered {
+  text-align: center;
+}
+
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
+}
+
+.traditions-text .brand {
+  color: var(--color-brand-normal);
+  font-weight: 600;
+}
+
+.traditions-text.limited {
+  max-width: 340px;
+}

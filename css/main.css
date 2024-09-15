@@ -6,6 +6,7 @@
   --color-primary-light: #faf4ea;
   --color-secondary-dark: #a18268;
 }
+
 /*----------------------GLOBAL STYLES-----------------*/
 * {
   box-sizing: border-box;
@@ -20,11 +21,13 @@ body {
   margin: 0;
   background-color: var(--color-primary-light);
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 address {
   font-style: normal;
 }
@@ -63,6 +66,7 @@ p {
   width: 100%;
   padding-top: 32px;
 }
+
 .header-nav {
   flex-grow: 1;
   display: flex;
@@ -106,13 +110,7 @@ p {
 /*------------------------HERO--------------------------*/
 .hero-section {
   padding: 272px 0;
-  background-image: linear-gradient(
-      102.76deg,
-      rgba(18, 18, 17, 0.78) 2.03%,
-      rgba(18, 18, 17, 0.6) 58.46%,
-      rgba(18, 18, 17, 0) 90.36%
-    ),
-    url(../images/couple-in-bakery.jpg);
+  background-image: linear-gradient(102.76deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url(../images/couple-in-bakery.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
@@ -129,6 +127,7 @@ p {
 .hero-title .accent {
   color: var(--color-brand-normal);
 }
+
 /*-------------------------Adventages-------------------------*/
 .visually-hidden {
   position: absolute;
@@ -155,6 +154,7 @@ p {
   font-size: 20px;
   font-weight: 300;
 }
+
 /*------------------------TRADITIONS--------------------------*/
 .tradition-section {
   padding-top: 96px;
@@ -200,6 +200,7 @@ p {
 .traditions-text.limited {
   max-width: 340px;
 }
+
 /*------------------------CHEFS--------------------------*/
 .chef-title {
   margin-bottom: 16px;
@@ -231,13 +232,14 @@ p {
 
 .chef-photo {
   border-radius: 4px 4px 4px 200px;
-  box-shadow: -16px 16px 0 0 var(--color-primary-light),
-    -16px 16px 0 2px var(--color-secondary-dark);
+  box-shadow: -16px 16px 0 0 var(--color-primary-light), -16px 16px 0 2px var(--color-secondary-dark);
 }
+
 /*------------------------FORMATS--------------------------*/
 .formats-title {
   margin-bottom: 80px;
 }
+
 .format-title {
   font-size: 24px;
   font-weight: 600;
@@ -258,16 +260,12 @@ p {
 .formats-item {
   flex-basis: calc((100% - 40px) / 3);
 }
+
 .format-card {
   height: 444px;
   border-radius: 16px;
   border: 1px solid grey; /*remove later*/
-  background-image: linear-gradient(
-    180deg,
-    rgba(49, 38, 26, 0) 55.21%,
-    rgba(49, 38, 26, 0.71) 72.92%,
-    var(--color-primary-dark) 100%
-  );
+  background-image: linear-gradient(180deg, rgba(49, 38, 26, 0) 55.21%, rgba(49, 38, 26, 0.71) 72.92%, var(--color-primary-dark) 100%);
   transition: transform 0.3s;
 }
 
@@ -298,10 +296,12 @@ p {
 .carousel-button.next {
   transform: rotate(180deg);
 }
+
 /*------------------------CONTACT--------------------------*/
 .contact-title {
   margin-bottom: 16px;
 }
+
 /*------------------------FOOTER--------------------------*/
 .address-link {
   color: var(--color-primary-light);
@@ -348,7 +348,6 @@ p {
   width: 180px;
   height: 120px;
   background-image: url(../images/decor-bread-small.png);
-
   left: 0;
 }
 
@@ -448,4 +447,4 @@ p {
 .form-terms-link {
   color: var(--color-primary-dark);
   text-underline-offset: 2px;
-}
+}/*# sourceMappingURL=main.css.map */
