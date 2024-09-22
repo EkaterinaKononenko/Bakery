@@ -4,26 +4,26 @@
 /*------------------------HEADER------------------------ */
 
 @import "./components/buttons";
-@import "./components/header";
+@import "./layouts/header";
 @import "./components/links";
 
 /*------------------------HERO--------------------------*/
-@import "./components/hero-section";
+@import "./layouts/hero-section";
+@import "./utils/texts";
 /*-------------------------Adventages-------------------------*/
 @import "./utils/utils";
-@import ".components/adventages-section";
+@import "./layouts/adventages-section";
 /*------------------------TRADITIONS--------------------------*/
-@import "./components/traditions-section";
+@import "./layouts/traditions-section";
 /*------------------------CHEFS--------------------------*/
-@import "./components/chefs-section";
+@import "./layouts/chefs-section";
 /*------------------------FORMATS--------------------------*/
-@import "./components/formats-section";
+@import "./layouts/formats-section";
 /*------------------------CONTACT--------------------------*/
-@import "./components/contact-section";
+@import "./layouts/contact-section";
 /*------------------------FOOTER--------------------------*/
-@import "./components/footer";
+@import "./layouts/footer";
 /*----------------------MODAL WINDOW-----------------------------*/
 @import "./components/modal-window";
 /*----------------FORM------------------------*/
 @import "./components/form";
-@import "./utils/mixins";

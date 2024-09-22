@@ -54,7 +54,7 @@ p {
 }
 
 /*------------------------HEADER------------------------ */
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -67,14 +67,14 @@ p {
   padding-top: 32px;
 }
 
-.header-nav {
+.header__nav {
   flex-grow: 1;
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.header-menu {
+.header__menu {
   display: flex;
   gap: 64px;
   flex-grow: 1;
@@ -122,7 +122,7 @@ p {
   background-size: contain;
 }
 
-.hero-title {
+.hero-section__title {
   color: var(--color-primary-light);
   text-align: center;
   font-size: 128px;
@@ -130,7 +130,7 @@ p {
   margin-bottom: 0;
 }
 
-.hero-title .accent {
+.hero-section__title .accent {
   color: var(--color-brand-normal);
 }
 
