@@ -1,15 +1,21 @@
 .tradition-section {
   padding-top: 96px;
-}
 
-.traditions-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-}
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
 
-.traditions-content {
-  max-width: 710px;
+  &__content {
+    max-width: 710px;
+  }
+
+  &__text {
+    &--limited {
+      max-width: 340px;
+    }
+  }
 }
 
 .traditions-title {
